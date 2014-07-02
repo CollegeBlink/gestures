@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6464CE7C1963848800358D70 /* hey.png in Resources */ = {isa = PBXBuildFile; fileRef = 6464CE7B1963848800358D70 /* hey.png */; };
 		64BBC2F1184DAC7000FAF904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BBC2F0184DAC7000FAF904 /* Foundation.framework */; };
 		64BBC2F3184DAC7000FAF904 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BBC2F2184DAC7000FAF904 /* CoreGraphics.framework */; };
 		64BBC2F5184DAC7000FAF904 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BBC2F4184DAC7000FAF904 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6464CE7B1963848800358D70 /* hey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hey.png; sourceTree = "<group>"; };
 		64BBC2ED184DAC7000FAF904 /* gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BBC2F0184DAC7000FAF904 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64BBC2F2184DAC7000FAF904 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,7 @@
 				64BBC2FF184DAC7000FAF904 /* AppDelegate.h */,
 				64BBC300184DAC7000FAF904 /* AppDelegate.m */,
 				64BBC302184DAC7000FAF904 /* Main_iPhone.storyboard */,
+				6464CE7B1963848800358D70 /* hey.png */,
 				64BBC305184DAC7000FAF904 /* Main_iPad.storyboard */,
 				64BBC308184DAC7000FAF904 /* ViewController.h */,
 				64BBC309184DAC7000FAF904 /* ViewController.m */,
@@ -235,6 +238,7 @@
 				64BBC30C184DAC7000FAF904 /* Images.xcassets in Resources */,
 				64BBC304184DAC7000FAF904 /* Main_iPhone.storyboard in Resources */,
 				64BBC2FB184DAC7000FAF904 /* InfoPlist.strings in Resources */,
+				6464CE7C1963848800358D70 /* hey.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +478,7 @@
 				64BBC324184DAC7000FAF904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64BBC325184DAC7000FAF904 /* Build configuration list for PBXNativeTarget "gesturesTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +487,7 @@
 				64BBC327184DAC7000FAF904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
